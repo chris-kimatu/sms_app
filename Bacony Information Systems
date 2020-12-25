@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Bacony Information Systems</title>
+</head>
+<body>
+<p>p.o box 000000-00000 Nairobi </p>
+<p>Cell: +254722****90</p>
+<div class="container">
+<form action="action_page.php">
+<style type="text/css">
+h1{
+font-style=italics;
+color=blue;
+}
+</style>
+</head>
+<body-style="background-color:red">
+<hr><hr>
+<marquee>
+<h1>Welcome to the home of web development and database administration</h1>
+</marquee>
+<hr><hr>
+</body>
+<label for="fname">First Name</label>
+<input type="text" Id="fname" name="firstname" placeholder="Your name..">
+<label for="lname">Last Name</label>
+<input type="text" I'd="lname" name="lastname" placeholder="Your Last Name..">
+<label for="country">Country</label>
+<select I'd="country" name="country">
+<option value="kenya"> Kenya </option>
+<option value="uganda"> Uganda</option>
+<option value="tanzania"> Tanzania</option>
+<option value="usa"> USA</option>
+<option value="britain"> Britain</option>
+<option value="india"> India</option>
+</select>
+<label for="subject"> Subject</label>
+<textarea I'd="subject"name="subject"placeholder="write something.."style="height:200px"></textarea>
+<input type="submit"value"submit">
+</form>
+</div>
+<form action="action_page.php">
+<div class="imagecontainer">
+<img src="img_chris005.png"alt="avatar"class="avatar">
+</div>
+<div class="container">
+<label for="username">
+<b>Username</b></label>
+<input type="text"placeholder="Enter Username"name="username"required">
+<label for="password">
+<b>Password</label>
+<input type="password"placeholder="Enter Password"name"password"required>
+<button type="submit">Login</button>
+<label>
+<input type="checkbox"checked="checked"name="remember"> Remember Me</label>
+</div>
+</html>
